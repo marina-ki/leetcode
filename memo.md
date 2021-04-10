@@ -38,3 +38,8 @@ a.extend(b) #[1,2,3,4]
 
 元の配列はそのままにするには slice 使う
 a = [2,3,1][::-1]
+
+## join
+
+a = ['python', 'list', 'exchange']
+b = ','.join(str_list) # python,list,exchange
