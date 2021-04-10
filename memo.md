@@ -43,3 +43,23 @@ a = [2,3,1][::-1]
 
 a = ['python', 'list', 'exchange']
 b = ','.join(str_list) # python,list,exchange
+
+# 文字列
+
+## 切り取り
+
+### 両端
+
+s = 'aaaBBBaaaCCCaaa'
+t = s.strip('a') # 'BBBaaaCCC'
+
+s = ' abc '
+t = s.strip() # 'abc'
+
+### 先頭のみ
+
+lstrip
+
+### 末尾のみ
+
+rstrip
